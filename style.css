@@ -73,3 +73,59 @@
 .btn-hire {
     color: red;
 }
+
+.service-container {
+    height: 100vh;
+    background-image: url("/asset/image/footer-bg.png"),
+        linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.9));
+    color: white;
+    padding: 20px;
+}
+
+.service-container li {
+    margin-left: 20px;
+}
+
+.btn-service {
+    color: #a18080;
+    border-radius: 40px;
+}
+
+.service-title {
+    font-size: 40px;
+}
+
+.service-description {
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+}
+
+.btn-more-details {
+    color: red;
+    border-radius: 40px;
+}
+
+.author-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author-img {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid red;
+}
+
+.author-img h5 {
+    margin-left: 10px;
+}
+
+.author-details img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}

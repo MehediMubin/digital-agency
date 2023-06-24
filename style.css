@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8b8989;
+}
+
+.menu-container ul {
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+    font-size: 21px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:hover {
+    color: red;
+}
+
+.banner-container {
+    height: 100vh;
+    background-image: url("/asset/image/background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-description {
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-discover {
+    background-color: red;
+    color: white;
+}
+
+.btn-hire {
+    color: red;
+}

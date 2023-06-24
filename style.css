@@ -81,6 +81,7 @@
     color: white;
     padding: 20px;
     display: flex;
+    /* justify-content: space-around; */
 }
 
 .service-container li {
@@ -165,3 +166,29 @@
     margin-right: 15px;
 }
 
+.appointment-section {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    background-color: #f52c2c;
+    color: white;
+    margin: 0 auto;
+    margin-top: -30px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.phone-call {
+    display: flex;
+    border-right: 1px solid #808080;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.phone-call img {
+    width: 100px;
+}
+
+.btn-appointment {
+    border-radius: 30px;
+}
